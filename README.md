@@ -6,6 +6,8 @@
 
 ## Overview
 
+The goal was to design, build, and program a device that uses PID feedback control. We did a PID controlled ping pong ball floater using a self made 3d printed fan to levitate the ball at the same height as our hand was placed away from the ultrasonic sensor.
+
 ## CAD Renderings
 
 ![bob](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102213.png?raw=true)
