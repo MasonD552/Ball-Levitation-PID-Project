@@ -1,29 +1,30 @@
-# PingPongBall_Levitation
-This repository will actually serve as a aid to help you get started with your own template.  You should copy the raw form of this readme into your own, and use this template to write your own.  If you want to draw inspiration from other classmates, feel free to check [this directory of all students!](https://github.com/chssigma/Class_Accounts).
+# PingPongBallLevitationPID
 
+## [Planning Document](https://docs.google.com/document/d/1iu1QzHzOoS6wglSrSRKpMj5YYZf-tlPRr4fQlHbtSWw/edit?usp=sharing)
 
-## Table of Contents
-* [Table of Contents](#TableOfContents)
-* [PingPongBall_Levitation](#PingPongBall_Levitation)
+## [Onshape Document](https://cvilleschools.onshape.com/documents/01ba54e9a02a0264ffe30b36/w/751f0ee8c634455b7b734eb5/e/1af5956fe3e64c1f0f977208?renderMode=0&uiState=643e998d3ae6405c35686462)
 
----
+## Overview
 
-## PingPongBall_Levitation
+## CAD Renderings
 
-### What is this Project?
+## Images
 
-### Requirements For Project
+## Materials Used
 
-### Project planning doccument:
+- Acrylic
+- Panel Mount LED
+- HC-SR04 Ultrasonic Sensor
+- Panel Mount Switch
+- Metro M4 Express AirLift
+- 6xAA Battery Pack w/ Batteries
 
-### Our goal/ Vision:
+## Wiring Diagram
 
-### Onshape documents 
+## Code
 
-### Photos Of Final Project
+## Obstacles/Errors
 
-### Commented Code
+## Tips
 
-### Videos from Project
-
-### Reflection
+[Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s)
