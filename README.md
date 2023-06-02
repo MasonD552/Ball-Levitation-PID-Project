@@ -6,7 +6,7 @@
 
 ## Overview
 
-The goal was to design, build, and program a device that uses PID feedback control. We did a PID controlled ping pong ball floater using a self made 3d printed fan to levitate the ball at the same height constantly using an ultrasonic sensor as te input and the 3d printed fan as the output. 
+The goal was to design, build, and program a device that uses PID feedback control. We did a PID controlled ping pong ball floater using a self made 3d printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as te input and the 3d printed fan as the output. 
 
 ## CAD Renderings
 
@@ -43,30 +43,27 @@ import board
 import adafruit_hcsr04
 from PID_CPY import PID  
 import pwmio   
-import time 
+import time # imports
 
-pid = PID(100,800,1000)
-pid.setpoint = 35
-pid.output_limits = (24000,34000)
+pid = PID(24000,5,8500) # p, i, and d values for tuning
+pid.setpoint = 12.5 # where to keep the ping pong ball floating
+pid.output_limits = (20000.00,50000.00) # p, i, and d highest possible values
 
-fanMotor = pwmio.PWMOut(board.D8,duty_cycle = 65535,frequency=5000) # fanfanMotor
+fanMotor = pwmio.PWMOut(board.D8,duty_cycle = 65535) # fanfanMotor
 fanMotor.duty_cycle = 0
 
 dist = adafruit_hcsr04.HCSR04(trigger_pin = board.D3, echo_pin = board.D2)
 
 while True:
     try:
-        height = 20 - dist.distance
+        height = 26 - dist.distance # distance of ultrasonic sensor from bottom
         speed = int(pid(height))
         fanMotor.duty_cycle = speed
-        print("speed")
-        print(speed)
-        print("height")
-        print(height)
-        print(" ")
+        print("speed ", speed, " height ", height,)
     except RuntimeError:
         print("retry")
     time.sleep(.1)
+#TIP 120 ask deirolf
 ```
 
 ## Obstacles/Errors
