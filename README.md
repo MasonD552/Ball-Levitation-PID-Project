@@ -6,7 +6,7 @@
 
 ## Overview
 
-The goal was to design, build, and program a device that uses PID feedback control. We did a PID controlled ping pong ball floater using a self made 3d printed fan to levitate the ball at the same height as our hand was placed away from the ultrasonic sensor.
+The goal was to design, build, and program a device that uses PID feedback control. We did a PID controlled ping pong ball floater using a self made 3d printed fan to levitate the ball at the same height constantly using an ultrasonic sensor as te input and the 3d printed fan as the output. 
 
 ## CAD Renderings
 
@@ -73,4 +73,4 @@ while True:
 
 ## Tips
 
-[Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s)
+This is a [Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) and a good reference for what our project is. -0.06 is a good allowance number for friction fit because we had to sand down edges with it at -0.08. CAD for this type of project is important to get done early b/c it's needed to test the code.
