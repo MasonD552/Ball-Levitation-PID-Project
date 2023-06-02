@@ -91,4 +91,4 @@ Collaboration played a vital role in the success of this project. Working as a t
 
 In hindsight, I believe this project provided an excellent opportunity for us to apply theoretical concepts to a practical real-world scenario. It taught us the value of interdisciplinary collaboration, attention to detail, and persistence in achieving our goals. Furthermore, it deepened our understanding of control systems, CAD design, and programming.
 
-Moving forward, I am confident that the skills and knowledge gained from this project will serve as a solid foundation for future endeavors. The PingPongBallLevitationPID project has not only enhanced our technical skills but also fostered a spirit of curiosity, innovation, and a desire to continue exploring new challenges.
+Moving forward, I am confident that the skills and knowledge gained from this project will serve as a solid foundation for future endeavors. The PingPongBallLevitationPID project has not only enhanced our technical skills but also fostered a spirit of curiosity, innovation, and a desire to continue exploring new challenges. -Cooper and Mason
