@@ -29,7 +29,7 @@ Rendering of the Inside
 
 <img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/d8ac62ba-55c6-4ca4-a83c-ebed8fd0dd28" alt="IMG_0848" width="400"/>
 
-![IMG_2357](https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/14a965af-2338-4a59-a945-40406d98cf5e)
+<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/14a965af-2338-4a59-a945-40406d98cf5e" alt="IMG_2357" width="400"/>
 
 ## [Video](https://youtube.com/shorts/0u8GYpTUjR4?feature=share)
 
