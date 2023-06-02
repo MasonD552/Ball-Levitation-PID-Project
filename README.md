@@ -72,7 +72,23 @@ while True:
 ```
 
 ## Obstacles/Errors
+Throughout the PingPongBallLevitationPID project, we encountered several obstacles and errors that required us to adapt and make adjustments. These challenges tested our problem-solving abilities and pushed us to find innovative solutions. Here are some of the obstacles and errors we faced:
 
+Original Box Design: Initially, we created an original box design for the ping pong ball levitation chamber. However, during testing, we realized that the box was not providing sufficient stability and containment for the ball. This forced us to go back to the drawing board and redesign the entire box to ensure a secure and stable levitation environment.
+
+Redesigning the Fan: Our initial fan design did not generate enough airflow to levitate the ping pong ball effectively. We discovered that the fan blades were not optimized for the required air circulation. As a result, we had to revisit the fan design, modify the blade shape and pitch, and experiment with different configurations to achieve the desired airflow and levitation capabilities.
+
+Shortening the Tube: The length of the tube connecting the levitation chamber and the fan also posed a challenge. Initially, the tube was longer than necessary, resulting in a delay in airflow response and stability issues. To address this, we decided to shorten the tube to minimize air resistance and improve the responsiveness of the system.
+
+Tuning PID Parameters: Implementing PID control required us to tune the P, I, and D parameters to achieve optimal performance. However, finding the right balance proved to be a complex task. Initially, the system exhibited overshoot, instability, or sluggish response. It took several iterations and experiments to fine-tune the PID values and achieve the desired ball levitation and stability.
+
+Sensor Interference: We encountered challenges with sensor interference during testing. The ultrasonic sensor occasionally picked up echoes or reflections from nearby objects, leading to inaccurate distance measurements. To mitigate this issue, we had to adjust the sensor positioning and implement filtering techniques to minimize interference and improve the reliability of the distance readings.
+
+Runtime Errors: During the programming phase, we faced runtime errors and exceptions that affected the overall functionality of the device. These errors required careful debugging and troubleshooting to identify and resolve the underlying issues. It was crucial to thoroughly test the code, handle potential exceptions, and ensure the smooth operation of the system.
+
+Time Constraints: Time management was an ongoing challenge throughout the project. Balancing multiple tasks, such as CAD design, fabrication, programming, and testing, within the project timeline required effective planning and prioritization. Adapting to unforeseen obstacles and errors within the limited timeframe demanded flexibility and efficient resource allocation.
+
+Despite these obstacles and errors, we approached them with determination and a willingness to learn from our mistakes. Each challenge provided valuable insights and lessons that ultimately contributed to the success of the PingPongBallLevitationPID project. Through perseverance and collaborative problem-solving, we were able to overcome these hurdles and achieve a functional and stable ping pong ball levitation system.
 ## Tips
 
 This is a [Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) and a good reference for what our project is. -0.06 is a good allowance number for friction fit because we had to sand down edges with it at -0.08. CAD for this type of project is important to get done early b/c it's needed to test the code.
