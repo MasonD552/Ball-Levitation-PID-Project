@@ -31,7 +31,7 @@ Rendering of the Inside
 
 <img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/14a965af-2338-4a59-a945-40406d98cf5e" alt="IMG_2357" width="400"/>
 
-## [Video](https://youtube.com/shorts/0u8GYpTUjR4?feature=share)
+## [Video](https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7f-ae85-43b1-a4ff-a210ebcc4e39)
 
 ## Materials Used
 
