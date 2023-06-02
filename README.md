@@ -32,6 +32,7 @@ Rendering of the Inside
 - Panel Mount Switch
 - Metro M4 Express AirLift
 - 6xAA Battery Pack w/ Batteries
+- TIP120 Transistor
 
 ## Wiring Diagram
 ![Bodacious Tumelo-Bojo](https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/3eb6dd60-e7e1-40dc-8f2d-3f4bf1d5fea4)
