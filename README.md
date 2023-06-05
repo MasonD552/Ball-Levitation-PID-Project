@@ -1,4 +1,5 @@
 # PingPongBallLevitationPID
+
 **[Mason Divers](https://github.com/MasonD552) and [Cooper Moreland](https://github.com/Cooper-Moreland)**
 
 ## [Planning Document](https://docs.google.com/document/d/1iu1QzHzOoS6wglSrSRKpMj5YYZf-tlPRr4fQlHbtSWw/edit?usp=sharing)
@@ -17,7 +18,7 @@
 
 ## Overview
 
-The goal was to design, build, and program a device that uses PID feedback control. We did a PID-controlled ping pong ball floater using a self-made 3d-printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as the input and the 3d printed fan as the output. 
+The goal was to design, build, and program a device that uses PID feedback control. We did a PID-controlled ping pong ball floater using a self-made 3d-printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as the input and the 3d printed fan as the output.
 
 ## Wiring Diagram
 
@@ -68,7 +69,6 @@ while True:
     time.sleep(0.1)     # 0.1 second delay
 ```
 
-
 ## CAD Renderings
 
 ![bob](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102213.png?raw=true)
@@ -78,8 +78,7 @@ Rendering of the Top and Side
 ![ted](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102254.png?raw=true)
 
 Rendering of View from Below
-
-![fred](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102329.png?raw=true)
+Fred](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102329.png?raw=true)
 
 Rendering of the Inside
 
@@ -93,7 +92,7 @@ photo of the back/side
 
 photo of the front
 
-## Video 
+## Video
 
 ![video](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/pid%20ping%20pong%20ball%20floater.gif?raw=true)
 
@@ -118,9 +117,9 @@ Time Constraints: Time management was an ongoing challenge throughout the projec
 ## Tips
 
 - Utilize this informative [video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) as a valuable reference for our project.
-+ -0.06 is a good allowance number for friction fit because we had to sand down edges of our side to make it friction fit.
-* Prioritize completing the CAD work early on for this project, as it is crucial for code testing purposes.
+- -0.06 is a good allowance number for friction fit because we had to sand down the edges of our side to make it friction fit.
+- Prioritize completing the CAD work early on for this project, as it is crucial for code testing purposes.
 
-## Reflection 
+## Reflection
 
 This project provided us with valuable insights into implementing PID in our designs, which was a previously unexplored aspect of engineering. It presented us with coding challenges that required considerable effort to optimize and eliminate any runtime errors. Our initial wiring setup was quite chaotic, resembling a "rat's nest," so we decided to redo it using shorter wires to achieve a cleaner and more organized appearance. To enhance the aesthetics and readability of the project, we used electrical tape to create the illusion of a single, unified wire instead of multiple wires tangled together, particularly for the connections leading to the ultrasonic sensor. The finalized wiring configuration greatly improved the project's visual clarity and enabled easy identification of each wire's purpose. Additionally, we needed to adjust the outer shell of the fan. Instead of reprinting it using a 3D printer, we opted for laser cutting a 3.18mm thick shell, which was slightly wider on the inside. This modification allowed for a more precise fit and addressed the sizing issue effectively. In conclusion, this project not only enhanced our understanding of PID but also highlighted the significance of cable management and maintaining cleanliness in design implementations.
