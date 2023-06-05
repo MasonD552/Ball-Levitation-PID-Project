@@ -7,7 +7,7 @@
 
 ## Overview
 
-The goal was to design, build, and program a device that uses PID feedback control. We did a PID controlled ping pong ball floater using a self made 3d printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as te input and the 3d printed fan as the output. 
+The goal was to design, build, and program a device that uses PID feedback control. We did a PID-controlled ping pong ball floater using a self-made 3d-printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as the input and the 3d printed fan as the output. 
 
 ## CAD Renderings
 
