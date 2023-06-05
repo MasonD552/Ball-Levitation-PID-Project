@@ -85,6 +85,8 @@ Rendering of the Inside
 
 ![video](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/pid%20ping%20pong%20ball%20floater.gif?raw=true)
 
+working ping-pong ball floater video
+
 ## Obstacles/Errors
 
 Original Box Design: We originally built a generic box, but once we decided to use a certain design for our 3d-printed fan we had to redesign the box around the fan's design so it could blow air directly out of the box without losing power to blowing some air into walls.
