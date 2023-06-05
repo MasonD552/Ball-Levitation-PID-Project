@@ -79,7 +79,6 @@ while True:
     except RuntimeError:
         print("retry")
     time.sleep(.1)
-#TIP 120 ask deirolf
 ```
 
 ## Obstacles/Errors
