@@ -98,7 +98,7 @@ Time Constraints: Time management was an ongoing challenge throughout the projec
 Despite these obstacles and errors, we approached them with determination and a willingness to learn from our mistakes. Each challenge provided valuable insights and lessons that ultimately contributed to the success of the Ping Pong Ball Levitation project. Through perseverance and collaborative problem-solving, we were able to overcome these hurdles and achieve a functional and stable ping pong ball levitation system.
 ## Tips
 
-This is a [Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) and a good reference for what our project is. -0.06 is a good allowance number for friction fit because we had to sand down edges with it at -0.08. CAD for this type of project is important to get done early b/c it's needed to test the code.
+This is a [Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) and a good reference for what our project is. -0.06 is a good allowance number for friction fit because we had to sand down edges with it at -0.08. CAD for this type of project is important to get done early because it's needed to test the code.
 
 ## Reflection 
 Throughout the ping pong ball levitation project, we embarked on a fascinating journey of designing, building, and programming a device to achieve stable ball levitation using PID feedback control. It was an exciting challenge that allowed us to explore the realms of 3D printing, electronics, and control systems.
