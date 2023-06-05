@@ -1,41 +1,29 @@
+# Mason Divers, Cooper Moreland
+# PID Controlled Ping Ping Levitator
+# Levitate a ping pong ball in a tube at a consistent height using an ultrasonic sensor, fan, and pid
+
 import board
 import adafruit_hcsr04
 from PID_CPY import PID  
 import pwmio   
-import time 
+import time # imports
 
-# Initialize PID controller with appropriate parameters
-pid = PID(100, 800, 1000)
-pid.setpoint = 35
-pid.output_limits = (24000, 34000)
+pid = PID(24000,5,8500) # p, i, and d values for tuning
+pid.setpoint = 12.5 # where to keep the ping pong ball floating
+pid.output_limits = (20000.00,50000.00) # p, i, and d highest possible values
 
-# Initialize PWM output for the fan motor
-fanMotor = pwmio.PWMOut(board.D8, duty_cycle=65535, frequency=5000) # fanfanMotor
+fanMotor = pwmio.PWMOut(board.D8,duty_cycle = 65535) # fanfanMotor
 fanMotor.duty_cycle = 0
 
-# Initialize ultrasonic distance sensor
-dist = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
+dist = adafruit_hcsr04.HCSR04(trigger_pin = board.D3, echo_pin = board.D2)
 
 while True:
     try:
-        # Measure the distance and calculate the height
-        height = 20 - dist.distance
-        
-        # Calculate the speed using the PID controller
+        height = 26 - dist.distance # distance of ultrasonic sensor from bottom
         speed = int(pid(height))
-        
-        # Set the fan motor speed
         fanMotor.duty_cycle = speed
-        
-        # Print the speed and height for debugging purposes
-        print("speed")
-        print(speed)
-        print("height")
-        print(height)
-        print(" ")
+        print("speed ", speed, " height ", height,)
     except RuntimeError:
-        # Handle any runtime errors
         print("retry")
+    time.sleep(.1)
     
-    # Delay for a short period of time
-    time.sleep(0.1)
