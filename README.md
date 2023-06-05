@@ -79,7 +79,11 @@ Rendering of the Inside
 
 <img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/IMG_0873.jpg?raw=true" alt="IMG_0873" width="400"/>
 
+photo of the back/side
+
 <img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/IMG_0872.jpg?raw=true" alt="IMG_0872" width="400"/>
+
+photo of the front
 
 ## Video 
 
