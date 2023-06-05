@@ -83,7 +83,7 @@ Rendering of the Inside
 
 ## Video 
 
-https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7f-ae85-43b1-a4ff-a210ebcc4e39
+![video](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/pid%20ping%20pong%20ball%20floater.gif?raw=true)
 
 ## Obstacles/Errors
 
