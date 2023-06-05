@@ -117,7 +117,9 @@ Time Constraints: Time management was an ongoing challenge throughout the projec
 
 ## Tips
 
-This is a [Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) and a good reference for what our project is. -0.06 is a good allowance number for friction fit because we had to sand down edges with it at -0.08. CAD for this type of project is important to get done early because it's needed to test the code.
+- Utilize this informative [video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) as a valuable reference for our project.
++ -0.06 is a good allowance number for friction fit because we had to sand down edges of our side to make it friction fit.
+* Prioritize completing the CAD work early on for this project, as it is crucial for code testing purposes.
 
 ## Reflection 
 
