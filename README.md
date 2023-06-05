@@ -25,6 +25,8 @@ The goal was to design, build, and program a device that uses PID feedback contr
 
 <img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/tip120-motor.png?raw=true" alt="tip120-motor" width="700"/>
 
+This is the wiring diagram we used to help us wire the TIP 120 transistor.
+
 ## Code
 
 ```python
