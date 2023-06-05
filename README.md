@@ -86,9 +86,9 @@ https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7
 
 ## Obstacles/Errors
 
-Original Box Design: We originally built a generic box, but once we decided to use a certain design for our 3d printed fan we had to redesign the box around the fans design so it could blow air directly out of the box without losing power to blowing some ar into walls.
+Original Box Design: We originally built a generic box, but once we decided to use a certain design for our 3d-printed fan we had to redesign the box around the fan's design so it could blow air directly out of the box without losing power to blowing some air into walls.
 
-Redesigning the Fan: Our initial fan design did not generate enough airflow to levitate the ping pong ball effectively. We asked Mr. Dierolf for help on the design with the fan and redesigned it so it was a more stable and power capable fan.
+Redesigning the Fan: Our initial fan design did not generate enough airflow to levitate the ping pong ball effectively. We asked Mr. Dierolf for help on the design of the fan and redesigned it so it was a more stable and power-capable fan.
 
 Shortening the Tube: We used vinyl for the tube so we could later cut it down if we needed to resize which turned out to be useful later when we needed to make it shorter ad also overlap less when we wrapped it.
 
@@ -96,7 +96,7 @@ Tuning PID Parameters: It took a while to find the separate values for P, I, and
 
 Sensor Interference: We encountered challenges with sensor interference during testing. The ultrasonic sensor occasionally picked up echoes or reflections from nearby objects, leading to inaccurate distance measurements. To mitigate this issue, we had to adjust the sensor positioning and implement filtering techniques to minimize interference and improve the reliability of the distance readings.
 
-Runtime Errors: We ran into a lot of runtime errors while trying to finalize the code. What helped was starting the code simple by only making sure the dc motor worked, then later implementing PID and the ultrasonic sensor with the help of Mr. Dierolf.
+Runtime Errors: We ran into a lot of runtime errors while trying to finalize the code. What helped was starting the code simply by only making sure the dc motor worked, then later implementing PID and the ultrasonic sensor with the help of Mr. Dierolf.
 
 Time Constraints: Time management was an ongoing challenge throughout the project. Balancing multiple tasks, such as CAD design, fabrication, programming, and testing, within the project timeline required effective planning and prioritization. Adapting to unforeseen obstacles and errors within the limited timeframe demanded flexibility and efficient resource allocation.
 
