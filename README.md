@@ -1,5 +1,5 @@
 # PingPongBallLevitationPID
-**Mason Divers and Cooper Moreland**
+**Mason Divers and [Cooper Moreland](https://github.com/Cooper-Moreland/EngNotebook3.git)**
 
 ## [Planning Document](https://docs.google.com/document/d/1iu1QzHzOoS6wglSrSRKpMj5YYZf-tlPRr4fQlHbtSWw/edit?usp=sharing)
 
