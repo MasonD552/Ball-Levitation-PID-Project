@@ -51,6 +51,10 @@ https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7
 
 ```python
 
+# Mason Divers, Cooper Moreland
+# PID Controlled Ping Ping Levitator
+# Levitate a ping pong ball in a tube at a consistent height using an ultrasonic sensor, fan, and pid
+
 import board
 import adafruit_hcsr04
 from PID_CPY import PID  
