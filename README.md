@@ -74,7 +74,7 @@ Rendering of the Inside
 
 ## Images
 
-<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/a2da06b4-ad93-430d-8ef8-54d1295656db" alt="IMG_0847" width="400"/>
+<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/IMG_0872.jpg?raw=true" alt="IMG_0873" width="400"/>
 
 <img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/d8ac62ba-55c6-4ca4-a83c-ebed8fd0dd28" alt="IMG_0848" width="400"/>
 
