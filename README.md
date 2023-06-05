@@ -5,35 +5,6 @@
 
 ## [Onshape Document](https://cvilleschools.onshape.com/documents/01ba54e9a02a0264ffe30b36/w/751f0ee8c634455b7b734eb5/e/1af5956fe3e64c1f0f977208?renderMode=0&uiState=643e998d3ae6405c35686462)
 
-## Overview
-
-The goal was to design, build, and program a device that uses PID feedback control. We did a PID-controlled ping pong ball floater using a self-made 3d-printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as the input and the 3d printed fan as the output. 
-
-## CAD Renderings
-
-![bob](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102213.png?raw=true)
-
-Rendering of the Top and Side
-
-![ted](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102254.png?raw=true)
-
-Rendering of View from Below
-
-![fred](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102329.png?raw=true)
-
-Rendering of the Inside
-
-## Images
-
-<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/a2da06b4-ad93-430d-8ef8-54d1295656db" alt="IMG_0847" width="400"/>
-
-<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/d8ac62ba-55c6-4ca4-a83c-ebed8fd0dd28" alt="IMG_0848" width="400"/>
-
-<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/14a965af-2338-4a59-a945-40406d98cf5e" alt="IMG_2357" width="400"/>
-
-## Video 
-https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7f-ae85-43b1-a4ff-a210ebcc4e39
-
 ## Materials Used
 
 - Acrylic
@@ -43,6 +14,10 @@ https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7
 - Metro M4 Express AirLift
 - 6xAA Battery Pack w/ Batteries
 - TIP120 Transistor
+
+## Overview
+
+The goal was to design, build, and program a device that uses PID feedback control. We did a PID-controlled ping pong ball floater using a self-made 3d-printed fan to levitate the ball to a set point ad stay there using an ultrasonic sensor as the input and the 3d printed fan as the output. 
 
 ## Wiring Diagram
 ![Bodacious Tumelo-Bojo](https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/3eb6dd60-e7e1-40dc-8f2d-3f4bf1d5fea4)
@@ -81,6 +56,32 @@ while True:
     time.sleep(.1)
 ```
 
+## CAD Renderings
+
+![bob](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102213.png?raw=true)
+
+Rendering of the Top and Side
+
+![ted](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102254.png?raw=true)
+
+Rendering of View from Below
+
+![fred](https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/Screenshot%202023-05-30%20102329.png?raw=true)
+
+Rendering of the Inside
+
+## Images
+
+<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/a2da06b4-ad93-430d-8ef8-54d1295656db" alt="IMG_0847" width="400"/>
+
+<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/d8ac62ba-55c6-4ca4-a83c-ebed8fd0dd28" alt="IMG_0848" width="400"/>
+
+<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/14a965af-2338-4a59-a945-40406d98cf5e" alt="IMG_2357" width="400"/>
+
+## Video 
+
+https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/71406906/f33dda7f-ae85-43b1-a4ff-a210ebcc4e39
+
 ## Obstacles/Errors
 Throughout the PingPongBallLevitationPID project, we encountered several obstacles and errors that required us to adapt and make adjustments. These challenges tested our problem-solving abilities and pushed us to find innovative solutions. Here are some of the obstacles and errors we faced:
 
@@ -99,6 +100,7 @@ Runtime Errors: During the programming phase, we faced runtime errors and except
 Time Constraints: Time management was an ongoing challenge throughout the project. Balancing multiple tasks, such as CAD design, fabrication, programming, and testing, within the project timeline required effective planning and prioritization. Adapting to unforeseen obstacles and errors within the limited timeframe demanded flexibility and efficient resource allocation.
 
 Despite these obstacles and errors, we approached them with determination and a willingness to learn from our mistakes. Each challenge provided valuable insights and lessons that ultimately contributed to the success of the Ping Pong Ball Levitation project. Through perseverance and collaborative problem-solving, we were able to overcome these hurdles and achieve a functional and stable ping pong ball levitation system.
+
 ## Tips
 
 This is a [Helpful video](https://www.youtube.com/watch?v=k0yTh2D-ypQ&list=PLWiHR1caPdEORSQOIG1W4TmaKShuoKJA5&index=3&t=65s) and a good reference for what our project is. -0.06 is a good allowance number for friction fit because we had to sand down edges with it at -0.08. CAD for this type of project is important to get done early because it's needed to test the code.
