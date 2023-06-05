@@ -22,7 +22,7 @@ The goal was to design, build, and program a device that uses PID feedback contr
 ## Wiring Diagram
 
 ![Bodacious Tumelo-Bojo](https://github.com/MasonD552/Ball-Levitation-PID-Project/assets/91158978/3eb6dd60-e7e1-40dc-8f2d-3f4bf1d5fea4)
-<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/tip120-motor.png?raw=true" alt="tip120-motor" width="800"/>
+<img src="https://github.com/MasonD552/Ball-Levitation-PID-Project/blob/CircuitPy/tip120-motor.png?raw=true" alt="tip120-motor" width="700"/>
 
 ## Code
 
